@@ -9,6 +9,8 @@
     <!-- Box-icons -->
     <link rel="stylesheet"
   href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+   <!-- Link Swiper's CSS -->
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
 </head>
 <body>
     <!-- navbar -->
@@ -29,8 +31,56 @@
     </header>
 
     <!-- home -->
-    <section class="house" id="home">
+    <section class="house swiper-container" id="home">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide container">
+                <img src="https://wallpapers.com/images/high/venom-let-there-be-carnage-painting-5ss3so5i5cyl9zq5.webp" alt="venom image">
+                <div class="home-text">
+                    <span>Marvel Universe</span>
+                    <h1>Venom: Let There <br> Be Carnage </h1>
+                    <a href="#" class="btn">Book Now</a>
+                    <a href="#" class="play">
+                        <i class='bx bx-play'></i>
+                    </a>
+                </div>
+            </div>
 
+            <!-- Box-2 -->
+
+            <div class="swiper-slide container">
+                <img src="https://images.alphacoders.com/909/909872.jpg" alt="venom image">
+                <div class="home-text">
+                    <span>Marvel Universe</span>
+                    <h1>Avengers:<br>Infinity War </h1>
+                    <a href="#" class="btn">Book Now</a>
+                    <a href="#" class="play">
+                        <i class='bx bx-play'></i>
+                    </a>
+                </div>
+            </div>
+
+              <!-- Box-3 -->
+
+              <div class="swiper-slide container">
+                <img src="https://wallpapercave.com/wp/wp3915798.jpg" alt="venom image">
+                <div class="home-text">
+                    <span>Marvel Universe</span>
+                    <h1>Spiderman:<br>Far From Home </h1>
+                    <a href="#" class="btn">Book Now</a>
+                    <a href="#" class="play">
+                        <i class='bx bx-play'></i>
+                    </a>
+                </div>
+            </div>
+           
+        </div>
+         
+          <div class="swiper-pagination"></div>
     </section>
+     <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+  <!-- link to custon js -->
+  <script src="main.js"></script>
 </body>
 </html>
